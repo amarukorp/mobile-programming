@@ -26,7 +26,7 @@ export default function App() {
               return <Ionicons name={iconName} size={size} color={color} />;
             },
             tabBarActiveTintColor: 'green',
-            tabBarInactiveTintColor: 'black',
+            tabBarInactiveTintColor: 'blacknp',
           })}
       >
         <Tab.Screen name='Home' component={HomeScreen}/>
