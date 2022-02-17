@@ -1,5 +1,5 @@
 import { Button, FlatList, Image, StyleSheet, Text, TextInput, View } from 'react-native';
-import {useState} from "react"
+import {useState} from "react";
 
 export default function App() {
   const [keyword, setKeyword] = useState('');
